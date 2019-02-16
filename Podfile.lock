@@ -1,0 +1,20 @@
+PODS:
+  - ChromaColorPicker (1.7.2)
+  - JTAppleCalendar (7.1.6)
+
+DEPENDENCIES:
+  - ChromaColorPicker
+  - JTAppleCalendar (~> 7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ChromaColorPicker
+    - JTAppleCalendar
+
+SPEC CHECKSUMS:
+  ChromaColorPicker: 78194fbae9f342d3781ac178c4d92c7652197d18
+  JTAppleCalendar: abb30678f42a4ef8a340a932b1dcb8c85a33dac2
+
+PODFILE CHECKSUM: 43ba7267f815e152175d1374c2506c2200295584
+
+COCOAPODS: 1.6.0
