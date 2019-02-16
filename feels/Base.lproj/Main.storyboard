@@ -25,6 +25,9 @@
                                     <constraint firstAttribute="width" constant="37" id="wYb-db-zj8"/>
                                 </constraints>
                                 <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="doneBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1aa-J0-tYf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -38,7 +41,7 @@
                     <tabBarItem key="tabBarItem" title="Item" id="eob-qV-XPY"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1510" y="-448"/>
+            <point key="canvasLocation" x="1509.5999999999999" y="-448.42578710644682"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="lOd-1C-nxE">

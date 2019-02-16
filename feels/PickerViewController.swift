@@ -10,8 +10,14 @@ import UIKit
 import ChromaColorPicker
 
 class PickerViewController: UIViewController {
-
+    
     var colorPicker: ChromaColorPicker!
+
+    @IBAction func doneBtnPressed(_ sender: Any) {
+        let singleton = Singleton.shared
+        singleton.addColor(color: colorPicker.currentColor.hexCode, for: "1")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
