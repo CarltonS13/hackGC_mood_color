@@ -17,6 +17,7 @@
 		BFA80CFF2217B0C5006E84EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA80CFD2217B0C5006E84EC /* LaunchScreen.storyboard */; };
 		BFA80D0A2217B0C5006E84EC /* feelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA80D092217B0C5006E84EC /* feelsTests.swift */; };
 		BFA80D152217B0C5006E84EC /* feelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA80D142217B0C5006E84EC /* feelsUITests.swift */; };
+		BFC7D6002217D3F800A1053E /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7D5FF2217D3F800A1053E /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BFA80D102217B0C5006E84EC /* feelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = feelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA80D142217B0C5006E84EC /* feelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelsUITests.swift; sourceTree = "<group>"; };
 		BFA80D162217B0C5006E84EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC7D5FF2217D3F800A1053E /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		D1E69622F5C0AA9D2FC57B23 /* Pods_feelsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_feelsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0D70CE30B59DD5C2FD0335 /* Pods-feelsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feelsUITests.release.xcconfig"; path = "Target Support Files/Pods-feelsUITests/Pods-feelsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,7 +101,6 @@
 				2CFFD64B053AD03B11721E0A /* Pods-feelsUITests.debug.xcconfig */,
 				FF0D70CE30B59DD5C2FD0335 /* Pods-feelsUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 				BFA80CFB2217B0C5006E84EC /* Assets.xcassets */,
 				BFA80CFD2217B0C5006E84EC /* LaunchScreen.storyboard */,
 				BFA80D002217B0C5006E84EC /* Info.plist */,
+				BFC7D5FF2217D3F800A1053E /* PickerViewController.swift */,
 			);
 			path = feels;
 			sourceTree = "<group>";
@@ -394,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC7D6002217D3F800A1053E /* PickerViewController.swift in Sources */,
 				BFA80CF72217B0C2006E84EC /* ViewController.swift in Sources */,
 				BFA80CF52217B0C2006E84EC /* AppDelegate.swift in Sources */,
 			);
