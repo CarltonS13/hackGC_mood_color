@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'feels' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  pod 'JTAppleCalendar', '~> 7.0'
+  pod 'CVCalendar', '~> 1.6.2'
   pod 'ChromaColorPicker'
 
   # Pods for feels

@@ -15,11 +15,29 @@ class PickerViewController: UIViewController {
 
     @IBAction func doneBtnPressed(_ sender: Any) {
         let singleton = Singleton.shared
-        singleton.addColor(color: colorPicker.currentColor.hexCode, for: "1")
+        singleton.addColor(color: colorPicker.currentColor, for: 1)
+    }
+    
+    func loadData(){
+        let singleton = Singleton.shared
+        singleton.addColor(color: UIColor.red, for: 1)
+        singleton.addColor(color: UIColor.red, for: 1)
+        singleton.addColor(color: UIColor.blue, for: 4)
+        
+        singleton.addColor(color: UIColor.green, for: 3)
+        singleton.addColor(color: UIColor.orange, for: 3)
+        singleton.addColor(color: UIColor.yellow, for: 3)
+        
+        singleton.addColor(color: UIColor.purple, for: 5)
+        singleton.addColor(color: UIColor.blue, for: 6)
+        singleton.addColor(color: UIColor.red, for: 2)
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadData()
+        
         
         let pickerSize = CGSize(width: view.bounds.width*0.8, height: view.bounds.width*0.8)
         let pickerOrigin = CGPoint(x: view.bounds.midX - pickerSize.width/2, y: view.bounds.midY - pickerSize.height/2)

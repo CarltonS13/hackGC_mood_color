@@ -10,6 +10,7 @@
 		1F79DDB4160B7745ACAA5DC3 /* Pods_feelsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED111F06865442CD8384481 /* Pods_feelsUITests.framework */; };
 		4160645ADB89A5E546030272 /* Pods_feels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA447ACA50D578BF2328CBA /* Pods_feels.framework */; };
 		BA984FAD32F3B4B7C56E4E63 /* Pods_feelsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E69622F5C0AA9D2FC57B23 /* Pods_feelsTests.framework */; };
+		BF9C9A1B22186DA400C14AA8 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9C9A1A22186DA400C14AA8 /* CalendarViewController.swift */; };
 		BFA80CF52217B0C2006E84EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA80CF42217B0C2006E84EC /* AppDelegate.swift */; };
 		BFA80CF72217B0C2006E84EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA80CF62217B0C2006E84EC /* ViewController.swift */; };
 		BFA80CFA2217B0C2006E84EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA80CF82217B0C2006E84EC /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		809EE20BBBF68C58E705A32C /* Pods-feels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feels.release.xcconfig"; path = "Target Support Files/Pods-feels/Pods-feels.release.xcconfig"; sourceTree = "<group>"; };
 		85B8D31FBB5520B2D2F12316 /* Pods-feelsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feelsTests.release.xcconfig"; path = "Target Support Files/Pods-feelsTests/Pods-feelsTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC7BCA88C6104FBA506A9368 /* Pods-feels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feels.debug.xcconfig"; path = "Target Support Files/Pods-feels/Pods-feels.debug.xcconfig"; sourceTree = "<group>"; };
+		BF9C9A1A22186DA400C14AA8 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		BFA80CF12217B0C2006E84EC /* feels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA80CF42217B0C2006E84EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFA80CF62217B0C2006E84EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				BFA80CFD2217B0C5006E84EC /* LaunchScreen.storyboard */,
 				BFA80D002217B0C5006E84EC /* Info.plist */,
 				BFC7D5FF2217D3F800A1053E /* PickerViewController.swift */,
+				BF9C9A1A22186DA400C14AA8 /* CalendarViewController.swift */,
 			);
 			path = feels;
 			sourceTree = "<group>";
@@ -308,15 +311,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-feels/Pods-feels-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CVCalendar/CVCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
-				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CVCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -396,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9C9A1B22186DA400C14AA8 /* CalendarViewController.swift in Sources */,
 				BFC7D6002217D3F800A1053E /* PickerViewController.swift in Sources */,
 				BFA80CF72217B0C2006E84EC /* ViewController.swift in Sources */,
 				BFA80CF52217B0C2006E84EC /* AppDelegate.swift in Sources */,

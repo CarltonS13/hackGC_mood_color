@@ -7,55 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040EB42B4B816F6374C6F6260457EDAD /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB65CE1923BD55BB783A3F65F33557E2 /* UIScrollViewDelegates.swift */; };
-		0EB0EC93C3016A8C550525B875C373FC /* JTAppleCalendarVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B92B203EAF256221910BBB12194F2 /* JTAppleCalendarVariables.swift */; };
-		0F02CA4D2A1912317CBCDB211F947EBE /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37523436406331C34EEB40C0DF80C22 /* UIColor+Utilities.swift */; };
+		0062E26BE09AD993C73E734F1C9F43B8 /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B69A9FB76EB2BA60A288E9D60588BE /* CVCalendarViewDelegate.swift */; };
+		0F02CA4D2A1912317CBCDB211F947EBE /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393DE4A7879AE72C35FC9D0A675FA7AB /* UIColor+Utilities.swift */; };
 		23812A76C628AB1938E802440A65A12D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		248774DB039E4F62AF5F623200A7FB53 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5102DE51A806B3CAF221DE2B5676CCE2 /* ChromaAddButton.swift */; };
+		248774DB039E4F62AF5F623200A7FB53 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D15CC38E474B8715856E6672CD35B1C /* ChromaAddButton.swift */; };
 		24B3532DE5BCCE44846C6689F2FC7E57 /* Pods-feelsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B53A5B565821FB6B858EDCE5A1CC34F4 /* Pods-feelsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F7DE8198CF0FB0ACAFD152BAFBF7595 /* JTCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0959C4E7E8529082F5991ED858B99 /* JTCalendarProtocols.swift */; };
-		4D54677BC33335F4AFCB1506F39D8CBF /* Pods-feels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1ADDA1185DB6413817505C8F6A1C36 /* Pods-feels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54B0A636ACBBA225335C2A045AB767A6 /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E4E7250E98041EC99E4A29587CAE9 /* UserInteractionFunctions.swift */; };
-		55AA1E9E910063317805602067271185 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FF9F7C8946BA19B285C211B6E956C5 /* ChromaColorPicker.swift */; };
-		61E08F038B60620F402B7046FB70AD1F /* InternalActionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0D7EC7F95B19B58F073295E6FB7DA /* InternalActionFunctions.swift */; };
-		6ED721A3218FA1FD16E9DEACD281A32D /* JTAppleCalendarDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0FB5DA56B5937D7ECF83B199FFF27 /* JTAppleCalendarDelegateProtocol.swift */; };
+		273BD11F7563308F57D60A8F993478E2 /* CVCalendarContentPresentationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2317E572E65EC9137A75E7A05BC6CDF /* CVCalendarContentPresentationCoordinator.swift */; };
+		277456D4FEEC881F46AFD88904DB29EA /* CVCalendarTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEDB4A85997C8B28352267CDFC88D4 /* CVCalendarTouchController.swift */; };
+		28D7C00D2FD3E5BACA8EA572FFDF4E45 /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05DDCCB4D0D8B89B6A6C55000C95176 /* CVCalendarContentViewController.swift */; };
+		2E014905F8759CEF795B3346D61E2575 /* CVCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D0A878C45AF2DD798312F971BC592 /* CVCalendar-dummy.m */; };
+		405B047B712872B8539009FF399381E3 /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A11DFAD54BBDEF097DBBFE0EDD460B /* CVCalendarManager.swift */; };
+		4354264F9C166F1DC83EB1CE85A505D5 /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996B161BDAB8453521E226981225863 /* CVWeekdaySymbolType.swift */; };
+		4633D5457BFC27B55AB961B704823028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		48E9578D8F5F00885FC3796EBC73E21C /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25585B87E8C9A888437B37A165DB67FD /* CVSet.swift */; };
+		48F4F163958F6A9231338FF8C136549A /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABD1B10306B5DDA1C261640B4B6EC3 /* CVAuxiliaryView.swift */; };
+		4C9E8B169781395A5FA19D54778E3D52 /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B134835283187790D9C23BFB6F8FE3 /* CVRange.swift */; };
+		55AA1E9E910063317805602067271185 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06CD9F6A7FC92C60DB0311981A233C /* ChromaColorPicker.swift */; };
+		55D3062E42A6B4FD1F28726B187717D2 /* Pods-feels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798B95A12DBF331EC02705F6322DC952 /* Pods-feels-dummy.m */; };
+		61E9D1DC2B19C74632D8EA9FD9E4A3FE /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992483950D665D2560088E45D9461547 /* CVCalendarWeekView.swift */; };
+		65CEB45F99F175965DB66CB6440A3F4D /* CVStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB87B053CB2699AB989658061D9FE78F /* CVStatus.swift */; };
+		69BDFCB61DD88B4933FEBF608661B9E2 /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B26FA8DEA4065ABB1EB4F0C067CD2 /* CVCalendarMonthView.swift */; };
+		6AE193B6E38007A218DAF12ACB5C480A /* CVCalendarMenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6087633144CB764104F4EF69C48711 /* CVCalendarMenuViewDelegate.swift */; };
 		78C19E86FEAEBDEE9A5ED5BE951CFA67 /* Pods-feelsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1273C3CEF13F3571BE508AB0C5FB9E46 /* Pods-feelsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A03B5DFE1D8159D94D31DA646006662 /* JTAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52210A84E770487B096ED4FCC5E0548 /* JTAppleCalendarView.swift */; };
-		7AE2A94AD2670CC51FA4F4B29007A9DF /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E84795F4918734D20C5F9E99826969 /* GlobalFunctionsAndExtensions.swift */; };
-		7C55F5629348CFEFCD69D64D938ED118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		85A8F3917D7505CC515080487ED97673 /* UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F64A2F4193BC0DD448BC012809F2531 /* UICollectionViewDelegates.swift */; };
-		88C4676A256371C42D2088D9EC96FFE5 /* Pods-feels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798B95A12DBF331EC02705F6322DC952 /* Pods-feels-dummy.m */; };
+		7A9A042DCAD9A802A2D9CBAC2038BF71 /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7E40FA52FD5CC50FEC4775384E3E0 /* CVCalendarDayView.swift */; };
+		7AAD7B6701050EFDA59E99C43B05F94C /* CVCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CEB9353C2DE8E88553F4B90A0C83C4 /* CVCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEB82A8F1C8E9F844DA0EEE16330C1C /* CVPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5CB7F4CCE48630244B0683BD99D6A /* CVPresent.swift */; };
+		811FFDE95B906E8895BB8A0123B3FA34 /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20303CECE1D95F59AB14506D9CF6D68F /* CVCalendarViewAppearance.swift */; };
+		8576362E65034A04CA70CDB56E6D1628 /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08AAC198D6B5012D2829E9FCDF514F0 /* CVDate.swift */; };
+		871FF64AA59C4470875F2766D7AB60FD /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBCD059BEF30021744F7381C04D0692 /* CVCalendarDayViewControlCoordinator.swift */; };
 		89A13A9B858B3B7B1FC0C9230A1AAFC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		8D6948095820E89E2BF7ED4A224628E3 /* JTAppleCalendarLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF031C947DEDB6838C7BD890B77A94C /* JTAppleCalendarLayoutProtocol.swift */; };
-		92EAC8D5B08438B6264EC48874E6E636 /* JTAppleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CA6F53E61AFBDA7D9C6F4C6B2D4B23 /* JTAppleCell.swift */; };
-		9C37517E94FA86F04ECA7E7F727BA401 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE484157E397A931AF97384307D88C /* ChromaShadeSlider.swift */; };
-		A8D43D74C2D42CAB7496BFBD1349732E /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDADE7EB52507CA54FD1EDCC428EE77 /* ChromaHandle.swift */; };
-		AA5C6F12BAE8553E44E060508B9CE2A9 /* ChromaColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B661A227E0749BB0AF55284471B755C /* ChromaColorPicker-dummy.m */; };
-		AEBEE79D29A162DC52CBBE02A3110722 /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9C681DD520B531745FACF2C832633C /* CalendarEnums.swift */; };
-		B0A6FFFB0B6932F91CFE7DC1FCB53ECB /* ChromaColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B990EA95BB3AE1FE366663B4269577 /* ChromaColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9710788ACDFC436EC054C2C30A745CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8BB63F1C2312C6EF0AA01DF92F686FBA /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAF11410F33857D8B9DD1D7810D070C /* CVSelectionType.swift */; };
+		910AD92C9BAAA9C6E4A1E56BF6F8D3EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9C37517E94FA86F04ECA7E7F727BA401 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F420EA5A3E8045FE27DB1BD906C9A289 /* ChromaShadeSlider.swift */; };
+		A2C29EB41391A621A4AF773DFBAFD614 /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE57E39678624B745BF482345CB1B9 /* CVCalendarView.swift */; };
+		A31DA1FBA9888A7FC12D9EFA064CBCC4 /* CVCalendarWeekContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A4842D2818EFE4325E7797B04E5A8 /* CVCalendarWeekContentViewController.swift */; };
+		A71E01C77659EF6F60B4EDDE3FB7AE71 /* CVCalendarViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FA2D03E57DFBCD1D29950E7F7F24B /* CVCalendarViewPresentationMode.swift */; };
+		A8319C79448169B278671FD6EAF09E97 /* Pods-feels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1ADDA1185DB6413817505C8F6A1C36 /* Pods-feels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A886E0A0DB58882BA664AD53E00BE571 /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462B64302C6AA61A84D378492E1460E /* CVCalendarMenuView.swift */; };
+		A8D43D74C2D42CAB7496BFBD1349732E /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BBA52BB5C7A0FE116D5FF8733798A2 /* ChromaHandle.swift */; };
+		AA5C6F12BAE8553E44E060508B9CE2A9 /* ChromaColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 025E7E68FB80895D583B62F6E01C0A26 /* ChromaColorPicker-dummy.m */; };
+		B0A6FFFB0B6932F91CFE7DC1FCB53ECB /* ChromaColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D63893EB788B069C4EED57A01B3865FB /* ChromaColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12D3F27666693F2C5F8C60D2727B17D /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C60696F0855B23A44457FD6B3A2C0 /* CVShape.swift */; };
+		B3E2B16A5C479C515F77E5C19E8CB542 /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D1CEAD5F12CE4B2438A4C1D2F866B /* CVCalendarViewAnimator.swift */; };
 		BF1ED76B311A737DCDCD276B6FA0CBC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		C7B7AE6A735540181B154899D9D66A93 /* JTAppleCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618D139CC17655A06443F157E44E7F4 /* JTAppleCalendarLayout.swift */; };
+		C197936D9A6AAF3B07314AAEDC0BEDEC /* CVCalendarWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D05B598096F4546E0B5659AA50BB9A /* CVCalendarWeekday.swift */; };
 		C9E0C74A31003C1DEEB7E56EDFC30681 /* Pods-feelsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C6922B3F72319E30036F0C333A2EA /* Pods-feelsTests-dummy.m */; };
-		CF82AB24EDD7C40B563A68871A286242 /* JTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EB86EA666148DF4C76E7FFF0EFF60D /* JTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D41C5E79C8C73ECA93FA71A6F25868CD /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF54D1BE8CC3EDA3B2797FB47265DC0 /* ColorModeToggleButton.swift */; };
+		D41C5E79C8C73ECA93FA71A6F25868CD /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1199A67D60C0605DBF111B422F2DD49 /* ColorModeToggleButton.swift */; };
 		D7BEB9D2CA41196FFBA07DB4CC3B69AA /* Pods-feelsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D755D5181F8EB544A9859D8CEB0F67 /* Pods-feelsUITests-dummy.m */; };
-		E0F48E754AA1451482146B8391F46838 /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925D7905EEFF97A94ACA6121A5C0483 /* CalendarStructs.swift */; };
-		FA64E289EFBBA398EBB262B70EDAA8E1 /* JTAppleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19FC75048B2B1D19716786BA4D4C5DE /* JTAppleCollectionReusableView.swift */; };
-		FCC2615F84745469BE98386954DF940C /* InternalQueryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A63BF62ABF2C29D39FCA9C3EFCE0955 /* InternalQueryFunctions.swift */; };
-		FDA032C9DD591D2B9E64A9140BE2CADB /* ChromaColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B35295F9295CBCDDCA745E00C6D2C43 /* ChromaColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE6F64478BE173D893826DFEDDAC9C02 /* JTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99141E61A57CECB038BC0FAD37CF362B /* JTAppleCalendar-dummy.m */; };
+		DAD57F1041FE5E554DF11EE073030677 /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37627A1692CEA4B55BE571B8258E7F67 /* CVCalendarViewAppearanceDelegate.swift */; };
+		E548AC1103EB9CACD80549679A5DBFF6 /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CFF9220363F313AE338321BE1D5DB /* CVScrollDirection.swift */; };
+		EC5AEF90F35DD0D4BB119FE69F3BAEDD /* CVCalendarMonthContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53525CD82B5E40F6B23FA4C54A75F79A /* CVCalendarMonthContentViewController.swift */; };
+		F7AC22E3DD4EDFAE3411A850A1D592FB /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CBD6D2B70447E8116375E1ADCF74BF /* CVCalendarViewAnimatorDelegate.swift */; };
+		FDA032C9DD591D2B9E64A9140BE2CADB /* ChromaColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C541912CED59942692B1476A0192EA /* ChromaColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7BC05470F4638F94E8C98B807C21F278 /* PBXContainerItemProxy */ = {
+		9DF29B5615950837106BD56EF0988E6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 78A1CCC5619B46E810E2E03634B81CB5;
-			remoteInfo = JTAppleCalendar;
+			remoteGlobalIDString = BFE27A46F3D36AC7CD2B59049047D202;
+			remoteInfo = CVCalendar;
 		};
-		8E34429CDB6DAD821249EDEC545705C4 /* PBXContainerItemProxy */ = {
+		A8CC476BF9813E89BD9646B360F79FAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -66,85 +80,99 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46FBE9C4288CFAADCBF3010EB1F92760;
+			remoteGlobalIDString = 24BE8F3C11FFB7A3BBF4F02D8193E443;
 			remoteInfo = "Pods-feels";
 		};
 		F6C5F6560BB251C1A63DEA03DD9079EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46FBE9C4288CFAADCBF3010EB1F92760;
+			remoteGlobalIDString = 24BE8F3C11FFB7A3BBF4F02D8193E443;
 			remoteInfo = "Pods-feels";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		025E7E68FB80895D583B62F6E01C0A26 /* ChromaColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChromaColorPicker-dummy.m"; sourceTree = "<group>"; };
+		05089CC046E4C61D9035992AD00699A4 /* Pods_feels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_feels.framework; path = "Pods-feels.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		067BAA943C37E7AC7FC8CC9E097ADAA6 /* Pods-feels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-feels.debug.xcconfig"; sourceTree = "<group>"; };
+		08357E29D7ADEF0E369EA25847DC7600 /* ChromaColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		0B7B26FA8DEA4065ABB1EB4F0C067CD2 /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthView.swift; path = CVCalendar/CVCalendarMonthView.swift; sourceTree = "<group>"; };
 		0C44E8D919ADEF43D34E3377E64ACC3B /* Pods-feelsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-feelsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		12565DAFFFEED948443DA9AAB7E8F3B9 /* Pods-feelsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-feelsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1273C3CEF13F3571BE508AB0C5FB9E46 /* Pods-feelsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-feelsUITests-umbrella.h"; sourceTree = "<group>"; };
-		1A63BF62ABF2C29D39FCA9C3EFCE0955 /* InternalQueryFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalQueryFunctions.swift; path = Sources/InternalQueryFunctions.swift; sourceTree = "<group>"; };
-		20E84795F4918734D20C5F9E99826969 /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalFunctionsAndExtensions.swift; path = Sources/GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
-		231A829B1B9FC8322F62D6D876AE955C /* ChromaColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChromaColorPicker.modulemap; sourceTree = "<group>"; };
-		28F4E5841F48EB6F5808BB2BA11A5CA5 /* JTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTAppleCalendar.xcconfig; sourceTree = "<group>"; };
-		2AF031C947DEDB6838C7BD890B77A94C /* JTAppleCalendarLayoutProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayoutProtocol.swift; path = Sources/JTAppleCalendarLayoutProtocol.swift; sourceTree = "<group>"; };
-		2B661A227E0749BB0AF55284471B755C /* ChromaColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChromaColorPicker-dummy.m"; sourceTree = "<group>"; };
-		2D0CA9BA751AE58DB88D2DF16A858021 /* ChromaColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChromaColorPicker.xcconfig; sourceTree = "<group>"; };
-		32790BF829DE6A9E984319C2AE4820E8 /* ChromaColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-prefix.pch"; sourceTree = "<group>"; };
-		33AE484157E397A931AF97384307D88C /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaShadeSlider.swift; path = ChromaColorPicker/ChromaShadeSlider.swift; sourceTree = "<group>"; };
-		3B35295F9295CBCDDCA745E00C6D2C43 /* ChromaColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChromaColorPicker.h; path = ChromaColorPicker/ChromaColorPicker.h; sourceTree = "<group>"; };
-		3B8B92B203EAF256221910BBB12194F2 /* JTAppleCalendarVariables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarVariables.swift; path = Sources/JTAppleCalendarVariables.swift; sourceTree = "<group>"; };
-		3DF54D1BE8CC3EDA3B2797FB47265DC0 /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorModeToggleButton.swift; path = ChromaColorPicker/ColorModeToggleButton.swift; sourceTree = "<group>"; };
+		148359DB8A78EEB092C00ADC542AB80E /* CVCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVCalendar.xcconfig; sourceTree = "<group>"; };
+		14CE57E39678624B745BF482345CB1B9 /* CVCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarView.swift; path = CVCalendar/CVCalendarView.swift; sourceTree = "<group>"; };
+		20303CECE1D95F59AB14506D9CF6D68F /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearance.swift; path = CVCalendar/CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		22185AD3990EC245960458B0A689A4B8 /* CVCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CVCalendar-Info.plist"; sourceTree = "<group>"; };
+		23BBA52BB5C7A0FE116D5FF8733798A2 /* ChromaHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaHandle.swift; path = ChromaColorPicker/ChromaHandle.swift; sourceTree = "<group>"; };
+		25585B87E8C9A888437B37A165DB67FD /* CVSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSet.swift; path = CVCalendar/CVSet.swift; sourceTree = "<group>"; };
+		2AAEDB4A85997C8B28352267CDFC88D4 /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarTouchController.swift; path = CVCalendar/CVCalendarTouchController.swift; sourceTree = "<group>"; };
+		2CA7E40FA52FD5CC50FEC4775384E3E0 /* CVCalendarDayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayView.swift; path = CVCalendar/CVCalendarDayView.swift; sourceTree = "<group>"; };
+		2FF17B9231F6AB839AACEBA4F07F1F36 /* ChromaColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChromaColorPicker.modulemap; sourceTree = "<group>"; };
+		37627A1692CEA4B55BE571B8258E7F67 /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearanceDelegate.swift; path = CVCalendar/CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		393DE4A7879AE72C35FC9D0A675FA7AB /* UIColor+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Utilities.swift"; path = "ChromaColorPicker/UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		397D0A878C45AF2DD798312F971BC592 /* CVCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CVCalendar-dummy.m"; sourceTree = "<group>"; };
+		3B6087633144CB764104F4EF69C48711 /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuViewDelegate.swift; path = CVCalendar/CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
 		3EC7FF0EE3E13F6AD712780143DFECBC /* Pods-feelsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-feelsUITests.modulemap"; sourceTree = "<group>"; };
 		40F5CF1DECD7C8D6B44D369765A5B2D7 /* Pods-feels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-feels.release.xcconfig"; sourceTree = "<group>"; };
 		46F3D9BDF3FB2E143DFDD8CDFA2068F6 /* Pods-feelsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-feelsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4943153888AE1D2FB86C77771C0FCA4F /* JTAppleCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JTAppleCalendar-Info.plist"; sourceTree = "<group>"; };
-		5102DE51A806B3CAF221DE2B5676CCE2 /* ChromaAddButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaAddButton.swift; path = ChromaColorPicker/ChromaAddButton.swift; sourceTree = "<group>"; };
-		51CA6F53E61AFBDA7D9C6F4C6B2D4B23 /* JTAppleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCell.swift; path = Sources/JTAppleCell.swift; sourceTree = "<group>"; };
+		4996B161BDAB8453521E226981225863 /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVWeekdaySymbolType.swift; path = CVCalendar/CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+		4EA5CB7F4CCE48630244B0683BD99D6A /* CVPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVPresent.swift; path = CVCalendar/CVPresent.swift; sourceTree = "<group>"; };
+		50BED397D1EEA2621A9EB9B6DCF4E0BD /* CVCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CVCalendar.modulemap; sourceTree = "<group>"; };
+		53525CD82B5E40F6B23FA4C54A75F79A /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthContentViewController.swift; path = CVCalendar/CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
 		56451054B3C008C1B339D77E34247A33 /* Pods-feelsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-feelsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5C1ADDA1185DB6413817505C8F6A1C36 /* Pods-feels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-feels-umbrella.h"; sourceTree = "<group>"; };
-		63B0959C4E7E8529082F5991ED858B99 /* JTCalendarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTCalendarProtocols.swift; path = Sources/JTCalendarProtocols.swift; sourceTree = "<group>"; };
+		5DBCD059BEF30021744F7381C04D0692 /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayViewControlCoordinator.swift; path = CVCalendar/CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		5F06CD9F6A7FC92C60DB0311981A233C /* ChromaColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaColorPicker.swift; path = ChromaColorPicker/ChromaColorPicker.swift; sourceTree = "<group>"; };
 		67E310273D9A5859921A53BC4AE758EA /* Pods-feels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-feels-Info.plist"; sourceTree = "<group>"; };
-		68B990EA95BB3AE1FE366663B4269577 /* ChromaColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-umbrella.h"; sourceTree = "<group>"; };
-		6C5A8A4A512DA2CFB7658DDFCC1D6C38 /* Pods_feels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_feels.framework; path = "Pods-feels.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D9C681DD520B531745FACF2C832633C /* CalendarEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEnums.swift; path = Sources/CalendarEnums.swift; sourceTree = "<group>"; };
-		6FF0D7EC7F95B19B58F073295E6FB7DA /* InternalActionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalActionFunctions.swift; path = Sources/InternalActionFunctions.swift; sourceTree = "<group>"; };
-		71B5C4971C36E443A376AC447DEEA0A6 /* Pods_feelsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_feelsUITests.framework; path = "Pods-feelsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72EB86EA666148DF4C76E7FFF0EFF60D /* JTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
 		768793ED066CA5EFCEA1FC7A0B2BFE78 /* Pods-feels-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-feels-acknowledgements.plist"; sourceTree = "<group>"; };
 		798B95A12DBF331EC02705F6322DC952 /* Pods-feels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-feels-dummy.m"; sourceTree = "<group>"; };
+		7D15CC38E474B8715856E6672CD35B1C /* ChromaAddButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaAddButton.swift; path = ChromaColorPicker/ChromaAddButton.swift; sourceTree = "<group>"; };
 		82D2D3F363C688B7C3EDFF4D92DA7393 /* Pods-feelsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-feelsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		84B11A4F805609C9C75F0E1667BE293F /* JTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
-		99141E61A57CECB038BC0FAD37CF362B /* JTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
-		9A7DEFE1121AB7A87C020F2A0719024A /* ChromaColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChromaColorPicker.framework; path = ChromaColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CEB9353C2DE8E88553F4B90A0C83C4 /* CVCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-umbrella.h"; sourceTree = "<group>"; };
+		87CBD6D2B70447E8116375E1ADCF74BF /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimatorDelegate.swift; path = CVCalendar/CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		8D9E23DF74E539EBAE7B646E0C6564EB /* ChromaColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChromaColorPicker-Info.plist"; sourceTree = "<group>"; };
+		93B69A9FB76EB2BA60A288E9D60588BE /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewDelegate.swift; path = CVCalendar/CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		957A4842D2818EFE4325E7797B04E5A8 /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekContentViewController.swift; path = CVCalendar/CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
+		992483950D665D2560088E45D9461547 /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekView.swift; path = CVCalendar/CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		9C8FA2D03E57DFBCD1D29950E7F7F24B /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewPresentationMode.swift; path = CVCalendar/CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F64A2F4193BC0DD448BC012809F2531 /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewDelegates.swift; path = Sources/UICollectionViewDelegates.swift; sourceTree = "<group>"; };
 		A124DC355EDD93D3190F042A81487598 /* Pods-feelsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-feelsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A7FF9F7C8946BA19B285C211B6E956C5 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaColorPicker.swift; path = ChromaColorPicker/ChromaColorPicker.swift; sourceTree = "<group>"; };
-		A91E87D9658A52961B4006167EE482FA /* Pods_feelsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_feelsTests.framework; path = "Pods-feelsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2317E572E65EC9137A75E7A05BC6CDF /* CVCalendarContentPresentationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarContentPresentationCoordinator.swift; path = CVCalendar/CVCalendarContentPresentationCoordinator.swift; sourceTree = "<group>"; };
 		ADF37846AF751A592B20C4309722CDAA /* Pods-feelsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-feelsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF5C6922B3F72319E30036F0C333A2EA /* Pods-feelsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-feelsTests-dummy.m"; sourceTree = "<group>"; };
-		B37523436406331C34EEB40C0DF80C22 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Utilities.swift"; path = "ChromaColorPicker/UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		AFCF2FA42E4901024C369D3AC71C1394 /* CVCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-prefix.pch"; sourceTree = "<group>"; };
+		B0476A907C46E91286F16C1EB3F6CCE8 /* ChromaColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChromaColorPicker.xcconfig; sourceTree = "<group>"; };
+		B05DDCCB4D0D8B89B6A6C55000C95176 /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarContentViewController.swift; path = CVCalendar/CVCalendarContentViewController.swift; sourceTree = "<group>"; };
 		B53A5B565821FB6B858EDCE5A1CC34F4 /* Pods-feelsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-feelsTests-umbrella.h"; sourceTree = "<group>"; };
+		B6ABD1B10306B5DDA1C261640B4B6EC3 /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVAuxiliaryView.swift; path = CVCalendar/CVAuxiliaryView.swift; sourceTree = "<group>"; };
 		BA1F8803EEDF064531185D45B6AA11A6 /* Pods-feelsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-feelsTests-Info.plist"; sourceTree = "<group>"; };
 		BC98D091A6181E1361BD0B2E0AA04A03 /* Pods-feels-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-feels-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C19FC75048B2B1D19716786BA4D4C5DE /* JTAppleCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCollectionReusableView.swift; path = Sources/JTAppleCollectionReusableView.swift; sourceTree = "<group>"; };
+		C08AAC198D6B5012D2829E9FCDF514F0 /* CVDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVDate.swift; path = CVCalendar/CVDate.swift; sourceTree = "<group>"; };
+		C1B134835283187790D9C23BFB6F8FE3 /* CVRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVRange.swift; path = CVCalendar/CVRange.swift; sourceTree = "<group>"; };
 		C437CDABF84FDD60EB4F1DCBC57F5EA9 /* Pods-feelsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-feelsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4CF372608D404DC415F21A8D12261CA /* CVCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CVCalendar.framework; path = CVCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA55263D34D476D2E0ABA89F81829567 /* Pods-feels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-feels.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D389A1E358DDABEE2A845F74EF26270E /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTAppleCalendar.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87378569222DB2509F6E07E973EEC4B /* JTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTAppleCalendar.modulemap; sourceTree = "<group>"; };
-		D8B289757FCDBFA97E65C04611906CEA /* ChromaColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChromaColorPicker-Info.plist"; sourceTree = "<group>"; };
-		D925D7905EEFF97A94ACA6121A5C0483 /* CalendarStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarStructs.swift; path = Sources/CalendarStructs.swift; sourceTree = "<group>"; };
-		D99E4E7250E98041EC99E4A29587CAE9 /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInteractionFunctions.swift; path = Sources/UserInteractionFunctions.swift; sourceTree = "<group>"; };
+		CFAF11410F33857D8B9DD1D7810D070C /* CVSelectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSelectionType.swift; path = CVCalendar/CVSelectionType.swift; sourceTree = "<group>"; };
+		D63893EB788B069C4EED57A01B3865FB /* ChromaColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		D6C541912CED59942692B1476A0192EA /* ChromaColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChromaColorPicker.h; path = ChromaColorPicker/ChromaColorPicker.h; sourceTree = "<group>"; };
+		D77C60696F0855B23A44457FD6B3A2C0 /* CVShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVShape.swift; path = CVCalendar/CVShape.swift; sourceTree = "<group>"; };
+		DB87B053CB2699AB989658061D9FE78F /* CVStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVStatus.swift; path = CVCalendar/CVStatus.swift; sourceTree = "<group>"; };
 		E04927C9D5512B8A4B46234E5BC3A7A1 /* Pods-feelsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-feelsTests.modulemap"; sourceTree = "<group>"; };
-		E618D139CC17655A06443F157E44E7F4 /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = Sources/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
+		E0A11DFAD54BBDEF097DBBFE0EDD460B /* CVCalendarManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarManager.swift; path = CVCalendar/CVCalendarManager.swift; sourceTree = "<group>"; };
+		E1490EEF6F0A025BD8476F7A8E29C304 /* ChromaColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChromaColorPicker.framework; path = ChromaColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462B64302C6AA61A84D378492E1460E /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuView.swift; path = CVCalendar/CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		E65D1CEAD5F12CE4B2438A4C1D2F866B /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimator.swift; path = CVCalendar/CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
 		E65DECB591BD93591C84526E60B2A8EE /* Pods-feels-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-feels-frameworks.sh"; sourceTree = "<group>"; };
-		EB65CE1923BD55BB783A3F65F33557E2 /* UIScrollViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewDelegates.swift; path = Sources/UIScrollViewDelegates.swift; sourceTree = "<group>"; };
-		ECDADE7EB52507CA54FD1EDCC428EE77 /* ChromaHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaHandle.swift; path = ChromaColorPicker/ChromaHandle.swift; sourceTree = "<group>"; };
-		F2E0FB5DA56B5937D7ECF83B199FFF27 /* JTAppleCalendarDelegateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarDelegateProtocol.swift; path = Sources/JTAppleCalendarDelegateProtocol.swift; sourceTree = "<group>"; };
+		E8D05B598096F4546E0B5659AA50BB9A /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekday.swift; path = CVCalendar/CVCalendarWeekday.swift; sourceTree = "<group>"; };
+		EB11E742C1727B1C5F905CF27574D0B3 /* Pods_feelsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_feelsTests.framework; path = "Pods-feelsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC09CA811BA90F5BB4B53521CEBE1CBC /* Pods_feelsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_feelsUITests.framework; path = "Pods-feelsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06CFF9220363F313AE338321BE1D5DB /* CVScrollDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVScrollDirection.swift; path = CVCalendar/CVScrollDirection.swift; sourceTree = "<group>"; };
+		F1199A67D60C0605DBF111B422F2DD49 /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorModeToggleButton.swift; path = ChromaColorPicker/ColorModeToggleButton.swift; sourceTree = "<group>"; };
 		F3D755D5181F8EB544A9859D8CEB0F67 /* Pods-feelsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-feelsUITests-dummy.m"; sourceTree = "<group>"; };
-		F52210A84E770487B096ED4FCC5E0548 /* JTAppleCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarView.swift; path = Sources/JTAppleCalendarView.swift; sourceTree = "<group>"; };
+		F420EA5A3E8045FE27DB1BD906C9A289 /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaShadeSlider.swift; path = ChromaColorPicker/ChromaShadeSlider.swift; sourceTree = "<group>"; };
 		FEE50D7BCCD94CB770FB08D767E2F8C5 /* Pods-feelsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-feelsUITests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,27 +185,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AC40E3F06347986E7F46C5FEEB84CA9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9710788ACDFC436EC054C2C30A745CD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		90913A6DCDBA6D0ADC4F345816350362 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				89A13A9B858B3B7B1FC0C9230A1AAFC0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD2E387AFC34250B797F81DEE7BF382B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C55F5629348CFEFCD69D64D938ED118 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,19 +201,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5B870C2A6394F981D44EF443E2B1DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910AD92C9BAAA9C6E4A1E56BF6F8D3EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2D0B9C0AAD715F9436BCA891A303DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4633D5457BFC27B55AB961B704823028 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AB40EB42E585427619107A1FD3B3A8C /* Products */ = {
+		042613104E66260EBF760096CC2C1F44 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A7DEFE1121AB7A87C020F2A0719024A /* ChromaColorPicker.framework */,
-				D389A1E358DDABEE2A845F74EF26270E /* JTAppleCalendar.framework */,
-				6C5A8A4A512DA2CFB7658DDFCC1D6C38 /* Pods_feels.framework */,
-				A91E87D9658A52961B4006167EE482FA /* Pods_feelsTests.framework */,
-				71B5C4971C36E443A376AC447DEEA0A6 /* Pods_feelsUITests.framework */,
+				45A56FCE7CBE64A7F670679028B12438 /* ChromaColorPicker */,
+				B5EED660585614DD6DD838D0FC495CB6 /* CVCalendar */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		11617BDB4722E0089010E6D8E96C8189 /* Pods-feelsTests */ = {
@@ -220,6 +245,20 @@
 			path = "Target Support Files/Pods-feelsTests";
 			sourceTree = "<group>";
 		};
+		19081DA2EE432D5F3AF57766442821A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50BED397D1EEA2621A9EB9B6DCF4E0BD /* CVCalendar.modulemap */,
+				148359DB8A78EEB092C00ADC542AB80E /* CVCalendar.xcconfig */,
+				397D0A878C45AF2DD798312F971BC592 /* CVCalendar-dummy.m */,
+				22185AD3990EC245960458B0A689A4B8 /* CVCalendar-Info.plist */,
+				AFCF2FA42E4901024C369D3AC71C1394 /* CVCalendar-prefix.pch */,
+				83CEB9353C2DE8E88553F4B90A0C83C4 /* CVCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CVCalendar";
+			sourceTree = "<group>";
+		};
 		2539E620561D3BAB8E64F1AAC49FFFD1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,20 +269,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		49342F0CA266661CB32E730FF2ECA977 /* ChromaColorPicker */ = {
+		45A56FCE7CBE64A7F670679028B12438 /* ChromaColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				5102DE51A806B3CAF221DE2B5676CCE2 /* ChromaAddButton.swift */,
-				3B35295F9295CBCDDCA745E00C6D2C43 /* ChromaColorPicker.h */,
-				A7FF9F7C8946BA19B285C211B6E956C5 /* ChromaColorPicker.swift */,
-				ECDADE7EB52507CA54FD1EDCC428EE77 /* ChromaHandle.swift */,
-				33AE484157E397A931AF97384307D88C /* ChromaShadeSlider.swift */,
-				3DF54D1BE8CC3EDA3B2797FB47265DC0 /* ColorModeToggleButton.swift */,
-				B37523436406331C34EEB40C0DF80C22 /* UIColor+Utilities.swift */,
-				ACD9BDADDBF531E162EBF8DCEC757EEA /* Support Files */,
+				7D15CC38E474B8715856E6672CD35B1C /* ChromaAddButton.swift */,
+				D6C541912CED59942692B1476A0192EA /* ChromaColorPicker.h */,
+				5F06CD9F6A7FC92C60DB0311981A233C /* ChromaColorPicker.swift */,
+				23BBA52BB5C7A0FE116D5FF8733798A2 /* ChromaHandle.swift */,
+				F420EA5A3E8045FE27DB1BD906C9A289 /* ChromaShadeSlider.swift */,
+				F1199A67D60C0605DBF111B422F2DD49 /* ColorModeToggleButton.swift */,
+				393DE4A7879AE72C35FC9D0A675FA7AB /* UIColor+Utilities.swift */,
+				C5636A756D52A3E7C064B74606BBFB9A /* Support Files */,
 			);
 			name = ChromaColorPicker;
 			path = ChromaColorPicker;
+			sourceTree = "<group>";
+		};
+		71CAB517FE2B6B027B9CE10601D366FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1490EEF6F0A025BD8476F7A8E29C304 /* ChromaColorPicker.framework */,
+				C4CF372608D404DC415F21A8D12261CA /* CVCalendar.framework */,
+				05089CC046E4C61D9035992AD00699A4 /* Pods_feels.framework */,
+				EB11E742C1727B1C5F905CF27574D0B3 /* Pods_feelsTests.framework */,
+				EC09CA811BA90F5BB4B53521CEBE1CBC /* Pods_feelsUITests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		81144FA8BA94209537F152AFE5CB5B79 /* Pods-feels */ = {
@@ -271,57 +322,43 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A8DB48213CBDE077745C44045ACF67FB /* JTAppleCalendar */ = {
+		B5EED660585614DD6DD838D0FC495CB6 /* CVCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				6D9C681DD520B531745FACF2C832633C /* CalendarEnums.swift */,
-				D925D7905EEFF97A94ACA6121A5C0483 /* CalendarStructs.swift */,
-				20E84795F4918734D20C5F9E99826969 /* GlobalFunctionsAndExtensions.swift */,
-				6FF0D7EC7F95B19B58F073295E6FB7DA /* InternalActionFunctions.swift */,
-				1A63BF62ABF2C29D39FCA9C3EFCE0955 /* InternalQueryFunctions.swift */,
-				F2E0FB5DA56B5937D7ECF83B199FFF27 /* JTAppleCalendarDelegateProtocol.swift */,
-				E618D139CC17655A06443F157E44E7F4 /* JTAppleCalendarLayout.swift */,
-				2AF031C947DEDB6838C7BD890B77A94C /* JTAppleCalendarLayoutProtocol.swift */,
-				3B8B92B203EAF256221910BBB12194F2 /* JTAppleCalendarVariables.swift */,
-				F52210A84E770487B096ED4FCC5E0548 /* JTAppleCalendarView.swift */,
-				51CA6F53E61AFBDA7D9C6F4C6B2D4B23 /* JTAppleCell.swift */,
-				C19FC75048B2B1D19716786BA4D4C5DE /* JTAppleCollectionReusableView.swift */,
-				63B0959C4E7E8529082F5991ED858B99 /* JTCalendarProtocols.swift */,
-				9F64A2F4193BC0DD448BC012809F2531 /* UICollectionViewDelegates.swift */,
-				EB65CE1923BD55BB783A3F65F33557E2 /* UIScrollViewDelegates.swift */,
-				D99E4E7250E98041EC99E4A29587CAE9 /* UserInteractionFunctions.swift */,
-				BF032C43D17474D87D31FE49811D80F3 /* Support Files */,
+				B6ABD1B10306B5DDA1C261640B4B6EC3 /* CVAuxiliaryView.swift */,
+				A2317E572E65EC9137A75E7A05BC6CDF /* CVCalendarContentPresentationCoordinator.swift */,
+				B05DDCCB4D0D8B89B6A6C55000C95176 /* CVCalendarContentViewController.swift */,
+				2CA7E40FA52FD5CC50FEC4775384E3E0 /* CVCalendarDayView.swift */,
+				5DBCD059BEF30021744F7381C04D0692 /* CVCalendarDayViewControlCoordinator.swift */,
+				E0A11DFAD54BBDEF097DBBFE0EDD460B /* CVCalendarManager.swift */,
+				E462B64302C6AA61A84D378492E1460E /* CVCalendarMenuView.swift */,
+				3B6087633144CB764104F4EF69C48711 /* CVCalendarMenuViewDelegate.swift */,
+				53525CD82B5E40F6B23FA4C54A75F79A /* CVCalendarMonthContentViewController.swift */,
+				0B7B26FA8DEA4065ABB1EB4F0C067CD2 /* CVCalendarMonthView.swift */,
+				2AAEDB4A85997C8B28352267CDFC88D4 /* CVCalendarTouchController.swift */,
+				14CE57E39678624B745BF482345CB1B9 /* CVCalendarView.swift */,
+				E65D1CEAD5F12CE4B2438A4C1D2F866B /* CVCalendarViewAnimator.swift */,
+				87CBD6D2B70447E8116375E1ADCF74BF /* CVCalendarViewAnimatorDelegate.swift */,
+				20303CECE1D95F59AB14506D9CF6D68F /* CVCalendarViewAppearance.swift */,
+				37627A1692CEA4B55BE571B8258E7F67 /* CVCalendarViewAppearanceDelegate.swift */,
+				93B69A9FB76EB2BA60A288E9D60588BE /* CVCalendarViewDelegate.swift */,
+				9C8FA2D03E57DFBCD1D29950E7F7F24B /* CVCalendarViewPresentationMode.swift */,
+				957A4842D2818EFE4325E7797B04E5A8 /* CVCalendarWeekContentViewController.swift */,
+				E8D05B598096F4546E0B5659AA50BB9A /* CVCalendarWeekday.swift */,
+				992483950D665D2560088E45D9461547 /* CVCalendarWeekView.swift */,
+				C08AAC198D6B5012D2829E9FCDF514F0 /* CVDate.swift */,
+				4EA5CB7F4CCE48630244B0683BD99D6A /* CVPresent.swift */,
+				C1B134835283187790D9C23BFB6F8FE3 /* CVRange.swift */,
+				F06CFF9220363F313AE338321BE1D5DB /* CVScrollDirection.swift */,
+				CFAF11410F33857D8B9DD1D7810D070C /* CVSelectionType.swift */,
+				25585B87E8C9A888437B37A165DB67FD /* CVSet.swift */,
+				D77C60696F0855B23A44457FD6B3A2C0 /* CVShape.swift */,
+				DB87B053CB2699AB989658061D9FE78F /* CVStatus.swift */,
+				4996B161BDAB8453521E226981225863 /* CVWeekdaySymbolType.swift */,
+				19081DA2EE432D5F3AF57766442821A1 /* Support Files */,
 			);
-			name = JTAppleCalendar;
-			path = JTAppleCalendar;
-			sourceTree = "<group>";
-		};
-		ACD9BDADDBF531E162EBF8DCEC757EEA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				231A829B1B9FC8322F62D6D876AE955C /* ChromaColorPicker.modulemap */,
-				2D0CA9BA751AE58DB88D2DF16A858021 /* ChromaColorPicker.xcconfig */,
-				2B661A227E0749BB0AF55284471B755C /* ChromaColorPicker-dummy.m */,
-				D8B289757FCDBFA97E65C04611906CEA /* ChromaColorPicker-Info.plist */,
-				32790BF829DE6A9E984319C2AE4820E8 /* ChromaColorPicker-prefix.pch */,
-				68B990EA95BB3AE1FE366663B4269577 /* ChromaColorPicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ChromaColorPicker";
-			sourceTree = "<group>";
-		};
-		BF032C43D17474D87D31FE49811D80F3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D87378569222DB2509F6E07E973EEC4B /* JTAppleCalendar.modulemap */,
-				28F4E5841F48EB6F5808BB2BA11A5CA5 /* JTAppleCalendar.xcconfig */,
-				99141E61A57CECB038BC0FAD37CF362B /* JTAppleCalendar-dummy.m */,
-				4943153888AE1D2FB86C77771C0FCA4F /* JTAppleCalendar-Info.plist */,
-				84B11A4F805609C9C75F0E1667BE293F /* JTAppleCalendar-prefix.pch */,
-				72EB86EA666148DF4C76E7FFF0EFF60D /* JTAppleCalendar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JTAppleCalendar";
+			name = CVCalendar;
+			path = CVCalendar;
 			sourceTree = "<group>";
 		};
 		BFF396902DA5774E0766F97243F6A9D6 /* Pods-feelsUITests */ = {
@@ -340,13 +377,27 @@
 			path = "Target Support Files/Pods-feelsUITests";
 			sourceTree = "<group>";
 		};
+		C5636A756D52A3E7C064B74606BBFB9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FF17B9231F6AB839AACEBA4F07F1F36 /* ChromaColorPicker.modulemap */,
+				B0476A907C46E91286F16C1EB3F6CCE8 /* ChromaColorPicker.xcconfig */,
+				025E7E68FB80895D583B62F6E01C0A26 /* ChromaColorPicker-dummy.m */,
+				8D9E23DF74E539EBAE7B646E0C6564EB /* ChromaColorPicker-Info.plist */,
+				08357E29D7ADEF0E369EA25847DC7600 /* ChromaColorPicker-prefix.pch */,
+				D63893EB788B069C4EED57A01B3865FB /* ChromaColorPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChromaColorPicker";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F860BDE9E0BE7A6CFF8D1F9B87B940C0 /* Pods */,
-				0AB40EB42E585427619107A1FD3B3A8C /* Products */,
+				042613104E66260EBF760096CC2C1F44 /* Pods */,
+				71CAB517FE2B6B027B9CE10601D366FD /* Products */,
 				2539E620561D3BAB8E64F1AAC49FFFD1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -359,26 +410,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F860BDE9E0BE7A6CFF8D1F9B87B940C0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				49342F0CA266661CB32E730FF2ECA977 /* ChromaColorPicker */,
-				A8DB48213CBDE077745C44045ACF67FB /* JTAppleCalendar */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		669525305BDA21376E63EEE664DF39E3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D54677BC33335F4AFCB1506F39D8CBF /* Pods-feels-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6C76CC9ECF1E73497B371E69D452589A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,11 +430,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1DA7CCFA467B7F65EDB908E6184AD4E /* Headers */ = {
+		B3D1F41FCE06712F4F9FF9FD1F582E86 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF82AB24EDD7C40B563A68871A286242 /* JTAppleCalendar-umbrella.h in Headers */,
+				7AAD7B6701050EFDA59E99C43B05F94C /* CVCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B4079F6724901221DA54B94109B3FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8319C79448169B278671FD6EAF09E97 /* Pods-feels-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,27 +472,27 @@
 			);
 			name = ChromaColorPicker;
 			productName = ChromaColorPicker;
-			productReference = 9A7DEFE1121AB7A87C020F2A0719024A /* ChromaColorPicker.framework */;
+			productReference = E1490EEF6F0A025BD8476F7A8E29C304 /* ChromaColorPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		46FBE9C4288CFAADCBF3010EB1F92760 /* Pods-feels */ = {
+		24BE8F3C11FFB7A3BBF4F02D8193E443 /* Pods-feels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA12D77C5D83D9B17CC17CCF9702BBC9 /* Build configuration list for PBXNativeTarget "Pods-feels" */;
+			buildConfigurationList = 48E51306556A16A6F1E3FB3C8BFE7B59 /* Build configuration list for PBXNativeTarget "Pods-feels" */;
 			buildPhases = (
-				669525305BDA21376E63EEE664DF39E3 /* Headers */,
-				F30CE35D5AB3212B52131F069BD0EE4B /* Sources */,
-				BD2E387AFC34250B797F81DEE7BF382B /* Frameworks */,
-				4679CB7DF25CC39F32B700B1B8B48A6D /* Resources */,
+				B5B4079F6724901221DA54B94109B3FB /* Headers */,
+				6A051193E895C55A3CD8740F8C39DA14 /* Sources */,
+				FA2D0B9C0AAD715F9436BCA891A303DD /* Frameworks */,
+				E33A7E4B809CFE96714E325AB0EE813F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE5D1F13184ACD35BCE739648CA02BD7 /* PBXTargetDependency */,
-				093F40955B0803A820595BE9738EB0E3 /* PBXTargetDependency */,
+				427545BB886FEA397DECD26A416777C9 /* PBXTargetDependency */,
+				1E210CFC2C25233413AEF937C0DF35DD /* PBXTargetDependency */,
 			);
 			name = "Pods-feels";
 			productName = "Pods-feels";
-			productReference = 6C5A8A4A512DA2CFB7658DDFCC1D6C38 /* Pods_feels.framework */;
+			productReference = 05089CC046E4C61D9035992AD00699A4 /* Pods_feels.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4BBE77408C8820A43C4BE164240A6EE9 /* Pods-feelsUITests */ = {
@@ -469,25 +511,25 @@
 			);
 			name = "Pods-feelsUITests";
 			productName = "Pods-feelsUITests";
-			productReference = 71B5C4971C36E443A376AC447DEEA0A6 /* Pods_feelsUITests.framework */;
+			productReference = EC09CA811BA90F5BB4B53521CEBE1CBC /* Pods_feelsUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		78A1CCC5619B46E810E2E03634B81CB5 /* JTAppleCalendar */ = {
+		BFE27A46F3D36AC7CD2B59049047D202 /* CVCalendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34A2ACD9ACC2193D9E9E4C08E089A958 /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */;
+			buildConfigurationList = 326805A641508820DDC7C1ED2B8EA2D3 /* Build configuration list for PBXNativeTarget "CVCalendar" */;
 			buildPhases = (
-				D1DA7CCFA467B7F65EDB908E6184AD4E /* Headers */,
-				51B52677E6B8753FF615F41A4BC907F0 /* Sources */,
-				6AC40E3F06347986E7F46C5FEEB84CA9 /* Frameworks */,
-				ED2C2C1535061A03CF02105F300BB5A2 /* Resources */,
+				B3D1F41FCE06712F4F9FF9FD1F582E86 /* Headers */,
+				3D9B9BCA23C4EA625E62458167B88D52 /* Sources */,
+				F5B870C2A6394F981D44EF443E2B1DAD /* Frameworks */,
+				4D29C5AACAE3C03069DF97BFC93CC0FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JTAppleCalendar;
-			productName = JTAppleCalendar;
-			productReference = D389A1E358DDABEE2A845F74EF26270E /* JTAppleCalendar.framework */;
+			name = CVCalendar;
+			productName = CVCalendar;
+			productReference = C4CF372608D404DC415F21A8D12261CA /* CVCalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FA1E21F484C46ACF0F529A20DF61B399 /* Pods-feelsTests */ = {
@@ -506,7 +548,7 @@
 			);
 			name = "Pods-feelsTests";
 			productName = "Pods-feelsTests";
-			productReference = A91E87D9658A52961B4006167EE482FA /* Pods_feelsTests.framework */;
+			productReference = EB11E742C1727B1C5F905CF27574D0B3 /* Pods_feelsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -526,13 +568,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0AB40EB42E585427619107A1FD3B3A8C /* Products */;
+			productRefGroup = 71CAB517FE2B6B027B9CE10601D366FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0FB8DF16358C7F452C2AB6AA4E763449 /* ChromaColorPicker */,
-				78A1CCC5619B46E810E2E03634B81CB5 /* JTAppleCalendar */,
-				46FBE9C4288CFAADCBF3010EB1F92760 /* Pods-feels */,
+				BFE27A46F3D36AC7CD2B59049047D202 /* CVCalendar */,
+				24BE8F3C11FFB7A3BBF4F02D8193E443 /* Pods-feels */,
 				FA1E21F484C46ACF0F529A20DF61B399 /* Pods-feelsTests */,
 				4BBE77408C8820A43C4BE164240A6EE9 /* Pods-feelsUITests */,
 			);
@@ -547,7 +589,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4679CB7DF25CC39F32B700B1B8B48A6D /* Resources */ = {
+		4D29C5AACAE3C03069DF97BFC93CC0FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -568,7 +610,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED2C2C1535061A03CF02105F300BB5A2 /* Resources */ = {
+		E33A7E4B809CFE96714E325AB0EE813F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -586,27 +628,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51B52677E6B8753FF615F41A4BC907F0 /* Sources */ = {
+		3D9B9BCA23C4EA625E62458167B88D52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBEE79D29A162DC52CBBE02A3110722 /* CalendarEnums.swift in Sources */,
-				E0F48E754AA1451482146B8391F46838 /* CalendarStructs.swift in Sources */,
-				7AE2A94AD2670CC51FA4F4B29007A9DF /* GlobalFunctionsAndExtensions.swift in Sources */,
-				61E08F038B60620F402B7046FB70AD1F /* InternalActionFunctions.swift in Sources */,
-				FCC2615F84745469BE98386954DF940C /* InternalQueryFunctions.swift in Sources */,
-				FE6F64478BE173D893826DFEDDAC9C02 /* JTAppleCalendar-dummy.m in Sources */,
-				6ED721A3218FA1FD16E9DEACD281A32D /* JTAppleCalendarDelegateProtocol.swift in Sources */,
-				C7B7AE6A735540181B154899D9D66A93 /* JTAppleCalendarLayout.swift in Sources */,
-				8D6948095820E89E2BF7ED4A224628E3 /* JTAppleCalendarLayoutProtocol.swift in Sources */,
-				0EB0EC93C3016A8C550525B875C373FC /* JTAppleCalendarVariables.swift in Sources */,
-				7A03B5DFE1D8159D94D31DA646006662 /* JTAppleCalendarView.swift in Sources */,
-				92EAC8D5B08438B6264EC48874E6E636 /* JTAppleCell.swift in Sources */,
-				FA64E289EFBBA398EBB262B70EDAA8E1 /* JTAppleCollectionReusableView.swift in Sources */,
-				3F7DE8198CF0FB0ACAFD152BAFBF7595 /* JTCalendarProtocols.swift in Sources */,
-				85A8F3917D7505CC515080487ED97673 /* UICollectionViewDelegates.swift in Sources */,
-				040EB42B4B816F6374C6F6260457EDAD /* UIScrollViewDelegates.swift in Sources */,
-				54B0A636ACBBA225335C2A045AB767A6 /* UserInteractionFunctions.swift in Sources */,
+				48F4F163958F6A9231338FF8C136549A /* CVAuxiliaryView.swift in Sources */,
+				2E014905F8759CEF795B3346D61E2575 /* CVCalendar-dummy.m in Sources */,
+				273BD11F7563308F57D60A8F993478E2 /* CVCalendarContentPresentationCoordinator.swift in Sources */,
+				28D7C00D2FD3E5BACA8EA572FFDF4E45 /* CVCalendarContentViewController.swift in Sources */,
+				7A9A042DCAD9A802A2D9CBAC2038BF71 /* CVCalendarDayView.swift in Sources */,
+				871FF64AA59C4470875F2766D7AB60FD /* CVCalendarDayViewControlCoordinator.swift in Sources */,
+				405B047B712872B8539009FF399381E3 /* CVCalendarManager.swift in Sources */,
+				A886E0A0DB58882BA664AD53E00BE571 /* CVCalendarMenuView.swift in Sources */,
+				6AE193B6E38007A218DAF12ACB5C480A /* CVCalendarMenuViewDelegate.swift in Sources */,
+				EC5AEF90F35DD0D4BB119FE69F3BAEDD /* CVCalendarMonthContentViewController.swift in Sources */,
+				69BDFCB61DD88B4933FEBF608661B9E2 /* CVCalendarMonthView.swift in Sources */,
+				277456D4FEEC881F46AFD88904DB29EA /* CVCalendarTouchController.swift in Sources */,
+				A2C29EB41391A621A4AF773DFBAFD614 /* CVCalendarView.swift in Sources */,
+				B3E2B16A5C479C515F77E5C19E8CB542 /* CVCalendarViewAnimator.swift in Sources */,
+				F7AC22E3DD4EDFAE3411A850A1D592FB /* CVCalendarViewAnimatorDelegate.swift in Sources */,
+				811FFDE95B906E8895BB8A0123B3FA34 /* CVCalendarViewAppearance.swift in Sources */,
+				DAD57F1041FE5E554DF11EE073030677 /* CVCalendarViewAppearanceDelegate.swift in Sources */,
+				0062E26BE09AD993C73E734F1C9F43B8 /* CVCalendarViewDelegate.swift in Sources */,
+				A71E01C77659EF6F60B4EDDE3FB7AE71 /* CVCalendarViewPresentationMode.swift in Sources */,
+				A31DA1FBA9888A7FC12D9EFA064CBCC4 /* CVCalendarWeekContentViewController.swift in Sources */,
+				C197936D9A6AAF3B07314AAEDC0BEDEC /* CVCalendarWeekday.swift in Sources */,
+				61E9D1DC2B19C74632D8EA9FD9E4A3FE /* CVCalendarWeekView.swift in Sources */,
+				8576362E65034A04CA70CDB56E6D1628 /* CVDate.swift in Sources */,
+				7BEB82A8F1C8E9F844DA0EEE16330C1C /* CVPresent.swift in Sources */,
+				4C9E8B169781395A5FA19D54778E3D52 /* CVRange.swift in Sources */,
+				E548AC1103EB9CACD80549679A5DBFF6 /* CVScrollDirection.swift in Sources */,
+				8BB63F1C2312C6EF0AA01DF92F686FBA /* CVSelectionType.swift in Sources */,
+				48E9578D8F5F00885FC3796EBC73E21C /* CVSet.swift in Sources */,
+				B12D3F27666693F2C5F8C60D2727B17D /* CVShape.swift in Sources */,
+				65CEB45F99F175965DB66CB6440A3F4D /* CVStatus.swift in Sources */,
+				4354264F9C166F1DC83EB1CE85A505D5 /* CVWeekdaySymbolType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A051193E895C55A3CD8740F8C39DA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D3062E42A6B4FD1F28726B187717D2 /* Pods-feels-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,82 +696,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F30CE35D5AB3212B52131F069BD0EE4B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88C4676A256371C42D2088D9EC96FFE5 /* Pods-feels-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		093F40955B0803A820595BE9738EB0E3 /* PBXTargetDependency */ = {
+		1E210CFC2C25233413AEF937C0DF35DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JTAppleCalendar;
-			target = 78A1CCC5619B46E810E2E03634B81CB5 /* JTAppleCalendar */;
-			targetProxy = 7BC05470F4638F94E8C98B807C21F278 /* PBXContainerItemProxy */;
+			name = ChromaColorPicker;
+			target = 0FB8DF16358C7F452C2AB6AA4E763449 /* ChromaColorPicker */;
+			targetProxy = A8CC476BF9813E89BD9646B360F79FAE /* PBXContainerItemProxy */;
 		};
 		1F7085EABBCF0E449E8F19BF4A474E8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-feels";
-			target = 46FBE9C4288CFAADCBF3010EB1F92760 /* Pods-feels */;
+			target = 24BE8F3C11FFB7A3BBF4F02D8193E443 /* Pods-feels */;
 			targetProxy = F6C5F6560BB251C1A63DEA03DD9079EE /* PBXContainerItemProxy */;
 		};
-		AE5D1F13184ACD35BCE739648CA02BD7 /* PBXTargetDependency */ = {
+		427545BB886FEA397DECD26A416777C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ChromaColorPicker;
-			target = 0FB8DF16358C7F452C2AB6AA4E763449 /* ChromaColorPicker */;
-			targetProxy = 8E34429CDB6DAD821249EDEC545705C4 /* PBXContainerItemProxy */;
+			name = CVCalendar;
+			target = BFE27A46F3D36AC7CD2B59049047D202 /* CVCalendar */;
+			targetProxy = 9DF29B5615950837106BD56EF0988E6E /* PBXContainerItemProxy */;
 		};
 		C89428AE122C492076EECE95E2831926 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-feels";
-			target = 46FBE9C4288CFAADCBF3010EB1F92760 /* Pods-feels */;
+			target = 24BE8F3C11FFB7A3BBF4F02D8193E443 /* Pods-feels */;
 			targetProxy = E3F76CE376A921C31E0903D2298CC071 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		213F1551D74FC569DBA1B4F635DAD0C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 067BAA943C37E7AC7FC8CC9E097ADAA6 /* Pods-feels.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-feels/Pods-feels-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-feels/Pods-feels.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2434DEB23D0B9CB64D1D16281C7DD105 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C44E8D919ADEF43D34E3377E64ACC3B /* Pods-feelsUITests.debug.xcconfig */;
@@ -746,10 +764,12 @@
 			};
 			name = Debug;
 		};
-		2F978771C17C45C67403C6BD86EB1C99 /* Release */ = {
+		3DA24110AA20D357C67AA38CDC040C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F4E5841F48EB6F5808BB2BA11A5CA5 /* JTAppleCalendar.xcconfig */;
+			baseConfigurationReference = 067BAA943C37E7AC7FC8CC9E097ADAA6 /* Pods-feels.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -759,22 +779,61 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-feels/Pods-feels-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
-				PRODUCT_MODULE_NAME = JTAppleCalendar;
-				PRODUCT_NAME = JTAppleCalendar;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-feels/Pods-feels.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C416DE1D1A46F8D91A0CE005B12D1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F5CF1DECD7C8D6B44D369765A5B2D7 /* Pods-feels.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-feels/Pods-feels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-feels/Pods-feels.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -859,41 +918,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		9D0CCBCB07D9DF9FB50C9568AF30C34D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F4E5841F48EB6F5808BB2BA11A5CA5 /* JTAppleCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
-				PRODUCT_MODULE_NAME = JTAppleCalendar;
-				PRODUCT_NAME = JTAppleCalendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -995,7 +1019,7 @@
 		};
 		BE087E9FC262FB0017836A38A3D8CCBA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D0CA9BA751AE58DB88D2DF16A858021 /* ChromaColorPicker.xcconfig */;
+			baseConfigurationReference = B0476A907C46E91286F16C1EB3F6CCE8 /* ChromaColorPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1030,7 +1054,7 @@
 		};
 		BEFB230958D47317410ADEBF9DBADC36 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D0CA9BA751AE58DB88D2DF16A858021 /* ChromaColorPicker.xcconfig */;
+			baseConfigurationReference = B0476A907C46E91286F16C1EB3F6CCE8 /* ChromaColorPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1128,12 +1152,10 @@
 			};
 			name = Debug;
 		};
-		EE0706C59A0DFBA8E67B5E75629E8BD2 /* Release */ = {
+		D2962A2431FCB777BC6A6ADBE377E405 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40F5CF1DECD7C8D6B44D369765A5B2D7 /* Pods-feels.release.xcconfig */;
+			baseConfigurationReference = 148359DB8A78EEB092C00ADC542AB80E /* CVCalendar.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1143,29 +1165,63 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-feels/Pods-feels-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/CVCalendar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-feels/Pods-feels.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				PRODUCT_MODULE_NAME = CVCalendar;
+				PRODUCT_NAME = CVCalendar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		F535E459CACE6A781C776B659F94CD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148359DB8A78EEB092C00ADC542AB80E /* CVCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/CVCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				PRODUCT_MODULE_NAME = CVCalendar;
+				PRODUCT_NAME = CVCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1179,11 +1235,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34A2ACD9ACC2193D9E9E4C08E089A958 /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */ = {
+		326805A641508820DDC7C1ED2B8EA2D3 /* Build configuration list for PBXNativeTarget "CVCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D0CCBCB07D9DF9FB50C9568AF30C34D /* Debug */,
-				2F978771C17C45C67403C6BD86EB1C99 /* Release */,
+				F535E459CACE6A781C776B659F94CD67 /* Debug */,
+				D2962A2431FCB777BC6A6ADBE377E405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1206,20 +1262,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		48E51306556A16A6F1E3FB3C8BFE7B59 /* Build configuration list for PBXNativeTarget "Pods-feels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA24110AA20D357C67AA38CDC040C45 /* Debug */,
+				4C416DE1D1A46F8D91A0CE005B12D1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B99DEBFF1BCA9D6258DD5BE1E31B57DA /* Build configuration list for PBXNativeTarget "Pods-feelsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2434DEB23D0B9CB64D1D16281C7DD105 /* Debug */,
 				4CDE8B7F4733E04EF72832236F04097B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA12D77C5D83D9B17CC17CCF9702BBC9 /* Build configuration list for PBXNativeTarget "Pods-feels" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				213F1551D74FC569DBA1B4F635DAD0C1 /* Debug */,
-				EE0706C59A0DFBA8E67B5E75629E8BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

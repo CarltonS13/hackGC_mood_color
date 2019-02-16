@@ -18,18 +18,19 @@ class ViewController: UIViewController {
 
 //static var entry : [String: [String]] = [String: [String]]()
 class Singleton{
-    var entry = [String: [String]]()
+    var entry = [Int: [UIColor]]()
     static let shared = Singleton()
     private init() { }
     
-    //use mod to work with 10 possibilities
+    //use mod to work with 7 possibilities
+    //aka days of the week
     
-    func addColor(color:String, for key:String){
+    func addColor(color:UIColor, for key:Int){
         entry[key, default: []].append(color)
 //        dump(entry[key])
     }
     
-    func color(for key: String) -> [String]?{
+    func color(for key: Int) -> [UIColor]?{
         return entry[key]
     }
 }
