@@ -18,6 +18,7 @@ class CalendarViewController: UIViewController, CVCalendarMenuViewDelegate, CVCa
     @IBOutlet weak var monthLabel: UILabel!
     
     var  list : [UIColor] = [UIColor.red]
+    var day : Int = Int()
     
     func presentationMode() -> CalendarMode {
         return .monthView
@@ -58,9 +59,9 @@ class CalendarViewController: UIViewController, CVCalendarMenuViewDelegate, CVCa
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        print("MAgic!")
         calendarView.contentController.refreshPresentedMonth()
         colorTabel.reloadData()
+        loadDayColors()
     }
     
 
@@ -74,7 +75,7 @@ class CalendarViewController: UIViewController, CVCalendarMenuViewDelegate, CVCa
     func dotMarker(shouldShowOnDayView dayView: DayView) -> Bool {
         let day = dayView.date.day
         
-        if (day % 3) == 1{
+        if (day % 3 == 1 || day % 4 == 1){
             return true
         }
         return false
@@ -85,19 +86,21 @@ class CalendarViewController: UIViewController, CVCalendarMenuViewDelegate, CVCa
     }
 
     func didSelectDayView(_ dayView: DayView, animationDidFinish: Bool) {
-        let day = dayView.date.day
-        let singleton = Singleton.shared
-        if (day % 3) == 1{
-            loadDayColors(colors: singleton.color(for: day % 8))
-        }
+        self.day =  dayView.date.day
+        loadDayColors()
     }
     
     func presentedDateUpdated(_ date: CVDate) {
         monthLabel.text = date.globalDescription
     }
     
-    func loadDayColors(colors :  [UIColor]?){
-        list = colors ?? [UIColor]()
+    func loadDayColors(){
+        let singleton = Singleton.shared
+        var colors = [UIColor]()
+        if (self.day % 3 == 1 || self.day % 4 == 1){
+            colors = singleton.color(for: self.day % 8) ?? [UIColor]()
+        }
+        list = colors
         colorTabel.reloadData()
     }
     

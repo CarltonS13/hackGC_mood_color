@@ -19,26 +19,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nro-Hc-0yS">
-                                <rect key="frame" x="163.5" y="533" width="48" height="52"/>
+                                <rect key="frame" x="159" y="544" width="57" height="41"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="h2h-qZ-sgv"/>
+                                    <constraint firstAttribute="width" constant="57" id="iGN-KC-nFf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
                                 <state key="normal" title="Done"/>
                                 <connections>
                                     <action selector="doneBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1aa-J0-tYf"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you feeling?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZy-R3-9I3">
+                                <rect key="frame" x="63" y="121" width="249.5" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="249.5" id="Rre-XF-yYV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nro-Hc-0yS" secondAttribute="trailing" constant="163.5" id="8lX-Tn-Gj7"/>
-                            <constraint firstItem="Nro-Hc-0yS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uGT-OQ-LNw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Nro-Hc-0yS" secondAttribute="bottom" constant="33" id="wT9-Eo-Ufq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Nro-Hc-0yS" secondAttribute="bottom" constant="33" id="GES-up-aeg"/>
+                            <constraint firstItem="Nro-Hc-0yS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RBD-Hk-fM4"/>
+                            <constraint firstItem="qZy-R3-9I3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="101" id="Sqr-u9-Epn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qZy-R3-9I3" secondAttribute="trailing" constant="62.5" id="iFg-bV-Gsz"/>
+                            <constraint firstItem="qZy-R3-9I3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m8o-O8-ThV"/>
+                            <constraint firstItem="Nro-Hc-0yS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="rh3-ev-TZJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Add" image="add" id="eob-qV-XPY"/>
+                    <tabBarItem key="tabBarItem" title="Add" image="plus" id="eob-qV-XPY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,7 +133,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="V9w-jX-J6f"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Calendar" id="zGh-7V-CWf"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" id="zGh-7V-CWf"/>
                     <connections>
                         <outlet property="calendarView" destination="Byn-S4-NDN" id="ZAj-P6-iBe"/>
                         <outlet property="colorTabel" destination="iJG-7N-eOh" id="ao0-Sb-gFG"/>
@@ -135,6 +147,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="add" width="384" height="384"/>
+        <image name="calendar" width="30" height="30"/>
+        <image name="plus" width="30" height="30"/>
     </resources>
 </document>
