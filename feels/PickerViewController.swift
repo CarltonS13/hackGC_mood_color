@@ -12,15 +12,17 @@ import ChromaColorPicker
 class PickerViewController: UIViewController {
     
     var colorPicker: ChromaColorPicker!
+//    var tabBarController: UITabBarController? { get }
 
     @IBAction func doneBtnPressed(_ sender: Any) {
         let singleton = Singleton.shared
         singleton.addColor(color: colorPicker.currentColor, for: 1)
+        tabBarController?.selectedIndex = 1
+        
     }
     
     func loadData(){
         let singleton = Singleton.shared
-        singleton.addColor(color: UIColor.red, for: 1)
         singleton.addColor(color: UIColor.red, for: 1)
         singleton.addColor(color: UIColor.blue, for: 4)
         
